@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        font-family: "Red Hat Display", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="img-bg" src="./images/pattern-background-desktop.svg" alt="" />
+    <img class="img-bg-mobile" src="./images/pattern-background-mobile.svg" alt="" />
+    <div class="card-container">
+      <img class="card-img" src="./images/illustration-hero.svg" alt="" />
+      <h1 class="header-card">Order Summary</h1>
+      <p class="text-card">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+      <div class="price-container">
+        <div class="img-container-icon">
+          <img src="./images/icon-music.svg" alt="" />
+        </div>
+        <div class="labels-container">
+          <span class="label-header"> Annual Plan</span>
+          <span class="label-price"> $59.99/year</span>
+        </div>
+        <span class="label-change">Change</span>
+      </div>
+      <button class="button">Proceed to Payment</button>
+      <span class="footer-span">Cancel Order</span>
+    </div>
+  </body>
+</html>
